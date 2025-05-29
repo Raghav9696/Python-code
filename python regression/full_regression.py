@@ -70,4 +70,5 @@ class RegressionPredict:
         plt.plot(predictruninput, predictrunoutput,
                  color='yellow', label="Predicted Run")
         plt.legend()
+        plt.tight_layout()
         plt.show()
