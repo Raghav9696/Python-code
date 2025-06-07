@@ -1,8 +1,16 @@
 n = 500
 loopcount = 0
-primecount = 1
+primecount = 3
 print(2, end=",")
-for i in range(3, n+1, 2):
+print(3, end=",")
+print(5, end=",")
+t=2
+i=5
+while i<n-1:
+    i+=t
+    t=6-t
+    # print(i)
+    # input()
     limit = i**.5
     limit = int(limit)
     isPrime = True
