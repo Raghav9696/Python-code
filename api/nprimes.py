@@ -1,4 +1,4 @@
-n = 100
+n = 500
 loopcount=0
 primecount=0
 for i in range(2,n+1):
